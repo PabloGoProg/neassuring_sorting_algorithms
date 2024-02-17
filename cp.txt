@@ -1,0 +1,21 @@
+for (int i = 0; i < a.length - 1; i++) // c1 * n
+{
+  int min = i; //c2 * n - 1
+  for (int j = i + 1; j < a.length; j++) //c3 * (n - 1)(n - j)
+  {
+    if (a[j] < a[min]) //c4 * (n - 1)(n - j)
+    {
+      min = j; // c5 * (n - 1)(n - j)
+    }
+  }
+  if (i != min) //c6 * n - 1
+  {
+    int aux = a[i]; //c(7,8,9) * n - 1
+    a[i] = a[min];
+    a[min] = aux; 
+  }
+}
+
+fn = n + n - 1 + (n - 1)(n - j) + n - 1
+fn = n + n - 1 + n2 - jn - n + j + n - 1
+fn = Th(n2) --> Om(n2) --> O(n2)

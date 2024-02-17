@@ -1,0 +1,135 @@
+ANÁLISIS EXPERIMENTAL y TEÓRICO DEL COSTO DE DOS ALGORITMOS DE ORDENAMIENTO 
+ 
+1) identifique los algoritmos asignados  seleccionando o desarrollando su implementación en LENGUAJE C/C++:
+  i) responda mostrando las implementaciones PRECISANDO las fuentes utilizadas.
+  ii) asegurese de que la implementación analizada  cumpla la condición de que el costo tiempo de cada instrucción sea constante
+
+PARTE I) ANÁLISIS ALGORITMO #1 
+
+ANÁLISIS EXPERIMENTAL
+
+I.1) Obtenga o elabore una implementación de los algoritmos en un lenguaje de programación;
+
+
+I.2) instrumente el código del algoritmo para contabilizar el # de instrucciones clave ejecutadas (sustente la selección de las instrucciones clave)  y el  tiempo total de ejecución (realmente no es exactamente el tiempo de ejecución consumido por el algoritmo sino el "elapsed time": tiempo transcurrido desde que se inicia el ordenamiento/búsqueda hasta que termina).
+
+I.3) ejecute el algoritmo con problemas de varios tamaños (cantidades ascendentes de elementos a ordenar
+así 100, 1.000, 10.000, 100.000, 1'000.000, 10'000.000 y 100'000.000, o tamaños ascendentes de los espacios de las búsquedas)
+registrando los resultados en una tabla (cuadro Excell)
+
+Repita 10 veces la ejecución para cada tamaño de problema (con el mismo # de elementos a  ordenar y el mismo caso -si aplica- Peor, Mejor, Promedio)
+
+I.4) GRÁFICAS DE DATOS EXPERIMENTALES
+
+i) Tabla y gráfica X-Y con X= # de elementos a ordenar, y Y= # Instrucciones clave
+
+ii) Tabla y gráfica X-Y con X= # de elementos a ordenar, y Y= Tiempo
+
+iii) Gráfica con la superposición de las dos gráficas
+
+i.5)  CONDICIONES DEL EXPERIMENTO
+
+i) las características del computador procesador, memoria RAM, tamaño área memoria virtual, sistema operativo
+
+si usa la nube describa las características de la máquina virtual con sus recursos
+
+ii) la implementación del lenguaje que usa
+
+iii) otras características que considere relevantes
+
+ANÁLISIS TEÓRICO ALGORITMO # 1
+
+I.6) busque u obtenga las funciones de costo tiempo y de costo espacio deL algoritmo referenciando las fuentes
+
+I.7) busque o determine la existencia o inexistencia de los tres casos uno por uno
+
+busque o determine el orden de crecimiento para cada caso
+
+I.8) GRÁFICA TEÓRICA 
+
+Tabla y gráfica X-Y con X= # de elementos a ordenar, y Y= orden de crecimiento
+
+I.9) COMPARACIÓN TEORÍA VS EXPERIMENTO
+
+i) superponga las gráficas EXPERIMENTALES y TEÓRICA
+
+compare los costos experimentales VS los costos teóricos para el algoritmo # 1
+
+ii) analice y concluya
+
+PARTE II) ANÁLISIS ALGORITMO # 2
+
+ANÁLISIS EXPERIMENTAL
+
+II.1) Obtenga o elabore una implementación de los algoritmos en un lenguaje de programación;
+
+
+II.2) instrumente el código del algoritmo para contabilizar el # de instrucciones clave ejecutadas (sustente la selección de las instrucciones clave)  y el  tiempo total de ejecución (realmente no es exactamente el tiempo de ejecución consumido por el algoritmo sino el "elapsed time": tiempo transcurrido desde que se inicia el ordenamiento/búsqueda hasta que termina).
+
+II.3) ejecute el algoritmo con problemas de varios tamaños (cantidades ascendentes de elementos a ordenar
+así 100, 1.000, 10.000, 100.000, 1'000.000, 10'000.000 y 100'000.000, o tamaños ascendentes de los espacios de las búsquedas)
+registrando los resultados en una tabla (cuadro Excell)
+
+Repita 10 veces la ejecución para cada tamaño de problema (con el mismo # de elementos a  ordenar y el mismo caso -si aplica- Peor, Mejor, Promedio)
+
+II.4) GRÁFICAS DE DATOS EXPERIMENTALES
+
+i) Tabla y gráfica X-Y con X= # de elementos a ordenar, y Y= # Instrucciones clave
+
+ii) Tabla y gráfica X-Y con X= # de elementos a ordenar, y Y= Tiempo
+
+iii) Gráfica con la superposición de las dos gráficas
+
+II.5)  CONDICIONES DEL EXPERIMENTO
+
+i) las características del computador procesador, memoria RAM, tamaño área memoria virtual, sistema operativo
+
+si usa la nube describa las características de la máquina virtual con sus recursos
+
+ii) la implementación del lenguaje que usa
+
+iii) otras características que considere relevantes
+
+ANÁLISIS TEÓRICO ALGORITMO # 1
+
+II.6) busque u obtenga las funciones de costo tiempo y de costo espacio deL algoritmo referenciando las fuentes
+
+II.7) busque o determine la existencia o inexistencia de los tres casos uno por uno
+
+busque o determine el orden de crecimiento para cada caso
+
+II.8) GRÁFICA TEÓRICA 
+
+Tabla y gráfica X-Y con X= # de elementos a ordenar, y Y= orden de crecimiento
+
+II.9) COMPARACIÓN TEORÍA VS EXPERIMENTO
+
+i) superponga las gráficas EXPERIMENTALES y TEÓRICA
+
+compare los costos experimentales VS los costos teóricos para el algoritmo # 1
+
+ii) analice y concluya
+
+PARTE III) COMPARACIÓN DE LOS DOS ALGORITMOS
+
+III.10) compare los costos experimentales del algoritmo # 1 con el algoritmo # 2
+
+i) superponga las gráficas
+
+ii) analice y concluya
+
+III.11) compare los costos téoricos del algoritmo # 1 con el algoritmo # 2
+
+i) superponga las gráficas
+
+ii) analice y concluya
+
+========================================================
+
+Las conclusiones deben estar sustentadas en el análisis de los resultados
+
+Debe entregar un informe aplicando las normas APA para escribir documentos
+
+Cite correctamente las fuentes usando la convención señalada (encerrar entre comillas en unos casos) incluyendo la cita bibliográfica.
+
+Cuidado con usar palabras que no sean las suyas pues podría estar cometiendo copia o plagio.
